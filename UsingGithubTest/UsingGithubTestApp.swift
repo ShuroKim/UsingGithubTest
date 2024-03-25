@@ -10,11 +10,9 @@ import SwiftUI
 @main
 struct UsingGithubTestApp: App {
     var body: some Scene {
-        WindowGroup {
-            
-            // Github Push Test
-            
-            ContentView()
+        WindowGroup {            
+            CustomTabNaviView()
+                .environmentObject(NavigationPathFinder.shared)
         }
     }
 }

@@ -12,6 +12,8 @@
 		CA20E06B2BB104CB00A28436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA20E06A2BB104CB00A28436 /* Assets.xcassets */; };
 		CA20E06E2BB104CB00A28436 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA20E06D2BB104CB00A28436 /* Preview Assets.xcassets */; };
 		CA20E0752BB114CC00A28436 /* TabNaviStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA20E0742BB114CC00A28436 /* TabNaviStackView.swift */; };
+		CA20E0782BB1195600A28436 /* CustomTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA20E0772BB1195600A28436 /* CustomTapView.swift */; };
+		CA20E07A2BB119A300A28436 /* CustomTabNaviView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA20E0792BB119A300A28436 /* CustomTabNaviView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		CA20E06A2BB104CB00A28436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA20E06D2BB104CB00A28436 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA20E0742BB114CC00A28436 /* TabNaviStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNaviStackView.swift; sourceTree = "<group>"; };
+		CA20E0772BB1195600A28436 /* CustomTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTapView.swift; sourceTree = "<group>"; };
+		CA20E0792BB119A300A28436 /* CustomTabNaviView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabNaviView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 		CA20E0652BB104CA00A28436 /* UsingGithubTest */ = {
 			isa = PBXGroup;
 			children = (
+				CA20E0762BB1194000A28436 /* View */,
 				CA20E0662BB104CA00A28436 /* UsingGithubTestApp.swift */,
 				CA20E0682BB104CA00A28436 /* ContentView.swift */,
 				CA20E0742BB114CC00A28436 /* TabNaviStackView.swift */,
@@ -68,6 +73,15 @@
 				CA20E06D2BB104CB00A28436 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA20E0762BB1194000A28436 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA20E0772BB1195600A28436 /* CustomTapView.swift */,
+				CA20E0792BB119A300A28436 /* CustomTabNaviView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +155,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA20E0752BB114CC00A28436 /* TabNaviStackView.swift in Sources */,
+				CA20E0782BB1195600A28436 /* CustomTapView.swift in Sources */,
+				CA20E07A2BB119A300A28436 /* CustomTabNaviView.swift in Sources */,
 				CA20E0692BB104CA00A28436 /* ContentView.swift in Sources */,
 				CA20E0672BB104CA00A28436 /* UsingGithubTestApp.swift in Sources */,
 			);
